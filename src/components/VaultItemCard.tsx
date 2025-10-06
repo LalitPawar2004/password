@@ -1,5 +1,5 @@
 import React from 'react';
-import './vaultItemCard.css';
+import './VaultItemCard.css';
 
 interface VaultItemCardProps {
   id?: string;

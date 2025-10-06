@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import VaultItemCard from '@/components/VaultItemCard';
 import { decryptWithPassword, encryptWithPassword } from '../utils/crypto';
 import { useClipboardAutoClear } from '../hooks/useClipboardAutoClear';
-import './vaultPanel.css';
+import './VaultPanel.css';
 
 interface EncryptedVaultItem {
   _id: string;
